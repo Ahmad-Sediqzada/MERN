@@ -5,16 +5,22 @@ const [, otherRandomCar] = cars
 console.log(randomCar)
 console.log(otherRandomCar)
 
+// Prediction: Tesla, Mercedes
 
-// const employee = {
-//     name: 'Elon',
-//     age: 47,
-//     company: 'Tesla'
-// }
-// const { name: otherName } = employee;
-// //Predict the output
-// console.log(name);
-// console.log(otherName);
+
+const employee = {
+    name: 'Elon',
+    age: 47,
+    company: 'Tesla'
+}
+const { name: otherName } = employee;
+//Predict the output
+console.log(name);
+console.log(otherName);
+
+
+// Prediction: 
+
 
 const person = {
     name: 'Phil Smith',
@@ -28,6 +34,9 @@ console.log(password);
 console.log(hashedPassword);
 
 
+// Prediction: 12345, undefined
+
+
 const numbers = [8, 2, 3, 5, 6, 1, 67, 12, 2];
 const [, first] = numbers;
 const [, , , second] = numbers;
@@ -35,6 +44,9 @@ const [, , , , , , , , third] = numbers;
 //Predict the output
 console.log(first == second);
 console.log(first == third);
+
+
+// Prediction: false, true
 
 
 const lastTest = {
@@ -49,6 +61,9 @@ console.log(key);
 console.log(secondKey);
 console.log(secondKey[0]);
 console.log(willThisWork);
+
+
+// Prediction: value, [1, 5, 1, 8, 3, 3], 1, 5
 
 
 
